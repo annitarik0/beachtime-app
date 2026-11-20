@@ -49,3 +49,6 @@ app.*.map.json
 
 # Local tooling
 .playwright-mcp/
+
+# Website and brand kit live in the beach-time repo (cloned into website/)
+/website/

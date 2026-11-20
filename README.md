@@ -41,9 +41,11 @@ Open Settings (the sliders icon) and pick a preset. Any OpenAI-compatible server
 
 ## Website
 
-The marketing site and brand kit are in [`website/`](website/). It is a Next.js site with a GSAP loading
-animation, and it uses the same fonts, colours and score logic as the app. Every push to `main` publishes
-it, plus the web version of the app under `/app/`, to https://annitarik0.github.io/beach-time/
+The marketing site and the brand kit live in their own repo, [beach-time](https://github.com/annitarik0/beach-time).
+It is live at https://annitarik0.github.io/beach-time/ and builds the web version of this app under `/app/`.
+After changing the app, run the "Publish website" workflow in that repo to refresh `/app/`.
+
+Brand identity case study: https://www.behance.net/gallery/258758635/Beach-Time-Brand-Identity
 
 ## Run
 
